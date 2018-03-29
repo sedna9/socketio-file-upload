@@ -76,6 +76,7 @@ function SocketIOFileUploadServer() {
 	};
 
 	var files = [];
+	self.files = files;
 
 	/**
 	 * Private function to emit the "siofu_complete" message on the socket.
